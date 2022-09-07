@@ -1,6 +1,8 @@
 body {
-    color:red} 
+    color: red
+}
+
 nav {
-        color:blue
-        font-family: arial
-        font-size: 72px}
+    color: blue font-family: arial, Helvetica, sans-serif;
+    font-size: 72px
+}
