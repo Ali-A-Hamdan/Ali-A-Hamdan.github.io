@@ -1,7 +1,7 @@
-body { color: red;
-        font-size: 50px;
+body {color:#111;
+        font-size: 30px;
         text-align: center;
-        background-color:beige
+        background-color:white ;
 }
 
 nav {   font-family: arial, Helvetica, sans-serif;
@@ -45,9 +45,11 @@ nav ul li a:hover { background-color: #111;
 }
 .aside-menu a { display:block;
     color: rgb(9, 9, 9);
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     border-bottom: 1px solid #555;
+    font-size: 20px;
+    padding: 14px 16px;
 }
 .aside-menu a:hover {background-color: rgb(143, 31, 31);
     /* Change the link color to #111 (black) on hover */
@@ -57,6 +59,20 @@ nav ul li a:hover { background-color: #111;
 img {width: 250px;
     height: ;
 }
-.characteristics { text-align:left;
+.characteristics {text-align:left;
 margin: 200px;
+}
+
+table {color:#333;
+        font-size:18px;
+        text-align: left;
+        background-color:rgb(214, 222, 222);
+        margin:50px;
+}
+table td {border:1px solid #111;
+}
+table th {border:1px solid #111;
+}
+table caption {background-color:darkgray;
+        font-size:30px;
 }
