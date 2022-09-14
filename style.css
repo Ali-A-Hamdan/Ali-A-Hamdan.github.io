@@ -4,20 +4,21 @@ body {color:#111;
         background-color:#fff;
         padding: 30px 100px;
 }
-header { background-color: ;
-        width: 80%;
+header { width: 80%;
         align-content: center;
         margin: 50px 20px;
 }
-
+/*h1*/
 h1 {    text-align: center;
         padding: 10px;
         height: 30px;
         border-bottom:2px solid #0a0a23;
+        margin: 10px;
 }
 .hello { background-color: blueviolet;
         border: none;
-
+}
+.title { width: 100%;
 }
 
 nav {   font-family: arial, Helvetica, sans-serif;
@@ -110,21 +111,23 @@ section {color:#111;
         text-align: left;
         margin: 10px 200px ;
         border: 10px solid rgba(51, 51, 51, 0.315);
-        box-shadow:inset ;
+        box-shadow: ;
         padding: 10px 10px;
         position:absolute;
         top: 100px;
         left: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
 }
-.blog { background-color: rgba(97, 194, 102, 0.5);
+.blog { background-color: rgba(205, 215, 205, 0.5);
         border: 1px solid #2a2a509f;
-        padding: 1px;
+        padding: 20px;
         margin: 10px;
-        position:relative 10px;
         width: 35%;
 }
-.webblog {display: flex;
-        flex-wrap: wrap;
+.webblog {flex-direction: row;
         font-size: 15px;
         text-align: left;
 }
@@ -138,8 +141,6 @@ em {    background-color:#93eaa99f;
         border-top: none;
         margin: 5px ;
 }
-@media screen and (max-width: 600px) {
-        section {
-          width: 100%;
-        }
-      }
+.home-img { margin: 20px;
+        display: flex;
+}
