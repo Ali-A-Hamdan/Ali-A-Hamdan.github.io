@@ -1,8 +1,7 @@
 body {color:#111;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         background-color:#fff;
-        margin: 30px 100px;
         display: flex;
 }
 header { width: 80%;
@@ -22,28 +21,26 @@ h1 {    text-align: center;
 }
 .title { width: 100%;
 }
-
+/*nav*/
 nav {   font-family: arial, Helvetica, sans-serif;
         font-size: 35px;
         width:fit-content;
-        position:sticky;
+        position:fixed;
         top: 0;
         z-index: 1;
 }
 nav ul { list-style-type: none;
         margin:0;
-        padding: 0;
+        padding: 1;
         overflow: hidden;
         background-color:#3d3d3e;
         text-align:left;
-        position:sticky;
         top: 50px;
 }
 
 nav ul li {float: left;
-           border-right: 1px solid #555;
+        border-right: 1px solid #555;
 }
-      
 nav ul li a {  display:block;
         color: white;
         text-align: center;
@@ -52,44 +49,43 @@ nav ul li a {  display:block;
 }
 
 nav ul li a:hover { background-color:rgba(255, 255, 0, 0.532);
-        position:sticky; /* Make it stick, even on scroll */
-        overflow: auto; /* Enable scrolling if the sidenav has too much content*/
+        overflow: auto;
 }
-  
-     /* Change the link color to #111 (black) on hover */
-
+#current {background-color:rgba(255, 255, 0, 0.532);} /*highlight the current link*/
+/*aside menu*/
 aside ul { list-style-type: none;
         margin: 10px 0px;
-        padding: 0;
-        width: 40%;
+        margin-top: 70px ;
+        padding: 0px;
+        width: 60%;
         background-color:#0a0a23;
         border: 5px solid #fdb347;
 }
 aside ul a { display:block;
-    color: rgb(247, 239, 239);
-    text-align: left;
-    text-decoration: none;
-    border-bottom: 1px solid #555;
-    font-size: 20px;
-    padding: 14px 16px;
+        color: rgb(247, 239, 239);
+        text-align: left;
+        text-decoration: none;
+        border-bottom: 1px solid #555;
+        font-size: 20px;
+        padding: 14px 16px;
 }
 aside ul a:hover {background-color: #fdb347;
-    /* Change the link color to #111 (black) on hover */
-    position:sticky; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content*/
+        overflow: auto;
 }
 img {width: 330px;
-    height: 200px; ;
-    padding: 0px 20px;
+        height: 200px; ;
+        padding: 0px 20px;
+        }
+.propedeuse { padding: 20px 20px
 }
-.propedeuse { 
-        padding: 20px 20px
-
+.hz-logo {
+        width: 150px;
+        height: 70px; ;
+        padding-left:600px;
 }
 .characteristics {text-align:left;
 margin: 20px;
 }
-
 table {color:#333;
         font-size:18px;
         text-align: left;
@@ -112,7 +108,6 @@ section {color:#111;
         font-size: 20px;
         text-align: left;
         margin: 10px 200px ;
-        box-shadow: ;
         padding: 10px 10px;
         position:absolute;
         top: 100px;
@@ -135,13 +130,19 @@ section {color:#111;
 }
 details { margin-bottom: 15px;
 }
-summary {
-        border: 1px solid #aaa;
+summary { border: 1px solid #aaa;
 }
-em {    background-color:#93eaa99f;
-        border: 1px solid #0a0a23;
+em { 
         border-top: none;
         margin: 5px ;
 }
 .home-img { display: flex;
+}
+.nbsa-boundary-background-green { background-color: rgb(51, 227, 139);
+        font-size: 22px;
+        width: 100%;
+}
+.nbsa-boundary-background-yellow { background-color:rgb(240, 240, 138);
+        font-size: 22px;
+        width: 100%;
 }
